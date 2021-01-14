@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Numerologia Cabalistica</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela2">Numerologia</string>
+    <string name="title_activity_frm_motivacao">Motivacao</string>
+    <string name="title_activity_tela_motivaca">Motivação</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_motivacaotela">Motivação</string>
+</resources>

@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.cabalistica.sergiobismark.numerologiacabalistica.Tela2"
+    tools:showIn="@layout/activity_tela2">
+
+    <TextView
+        android:id="@+id/txtvibraquatro"
+        android:layout_width="163dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="0dp"
+        android:text="1 e 8; profundamente oposto a: 5"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView40"
+        app:layout_constraintTop_toBottomOf="@+id/txtvibratres" />
+
+    <TextView
+        android:id="@+id/txtvibratres"
+        android:layout_width="165dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="13dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView39"
+        app:layout_constraintTop_toBottomOf="@+id/txtvibradois" />
+
+    <TextView
+        android:id="@+id/txtvibradois"
+        android:layout_width="61dp"
+        android:layout_height="13dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="1dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView38"
+        app:layout_constraintTop_toBottomOf="@+id/txtvibraum" />
+
+    <TextView
+        android:id="@+id/txtdecisivosquatro"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="Resto da Vida"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtmomentoquatro"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdecisivostres" />
+
+    <TextView
+        android:id="@+id/txtdecisivostres"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtmomentotres"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdecisivosdois" />
+
+    <TextView
+        android:id="@+id/txtdecisivosdois"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.026"
+        app:layout_constraintLeft_toRightOf="@+id/txtmomentodois"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdecisivosum" />
+
+    <TextView
+        android:id="@+id/txtmomentoquatro"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="160dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmomentotres" />
+
+    <TextView
+        android:id="@+id/txtmomentotres"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="35dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txttempociclotres"
+        app:layout_constraintTop_toBottomOf="@+id/txtmomentodois" />
+
+    <TextView
+        android:id="@+id/txtmomentodois"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="35dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txttempociclodois"
+        app:layout_constraintTop_toBottomOf="@+id/txtmomentoum" />
+
+    <TextView
+        android:id="@+id/txttempociclotres"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="-62dp"
+        android:layout_marginTop="-315dp"
+        android:text="Resto da Vida"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txtciclostres"
+        app:layout_constraintTop_toBottomOf="@+id/txttempociclodois" />
+
+    <TextView
+        android:id="@+id/txttempociclodois"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="ss"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txtciclosdois"
+        app:layout_constraintTop_toBottomOf="@+id/txttempocicloum" />
+
+    <TextView
+        android:id="@+id/txtciclosdois"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtciclosum" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="7dp"
+        android:text="Nome:"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnome"
+        android:layout_width="287dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/textView3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="Nº Motivação"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnome" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="85dp"
+        android:layout_height="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Nº Impressão"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnome" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="Nº Expressão"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView6"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnome" />
+
+    <TextView
+        android:id="@+id/txtimpressao"
+        android:layout_width="6dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="115dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:layout_marginTop="-16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.127" />
+
+    <TextView
+        android:id="@+id/txtmotivacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="51dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintRight_toLeftOf="@+id/txtimpressao"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtexpressao"
+        android:layout_width="14dp"
+        android:layout_height="13dp"
+        android:layout_marginEnd="52dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        android:layout_marginRight="107dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.748" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Lições Carmicas"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtmotivacao" />
+
+    <TextView
+        android:id="@+id/txtlicoescarmicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="122dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="Tendencias Ocultas"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView12"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtimpressao" />
+
+    <TextView
+        android:id="@+id/txttedencisocultas"
+        android:layout_width="21dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="-4dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintRight_toLeftOf="@+id/txtsubconsciente"
+        android:layout_marginRight="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/txtlicoescarmicas"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.44" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="101dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="3dp"
+        android:text="R.Subconsciente"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView14"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtmissao" />
+
+    <TextView
+        android:id="@+id/txtsubconsciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="2dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="110dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="22dp"
+        android:text="      Ciclos de Vida"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtlicoescarmicas" />
+
+    <TextView
+        android:id="@+id/txtciclosum"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/txtciclostres"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtciclosdois" />
+
+    <TextView
+        android:id="@+id/txttempocicloum"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="1dp"
+        android:text="ss"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txtciclosum"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="125dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="21dp"
+        android:text="Momentos Decisivos"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView9"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/txttedencisocultas" />
+
+    <TextView
+        android:id="@+id/txtmomentoum"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/txttempocicloum"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/txtdecisivosum"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.012"
+        app:layout_constraintLeft_toRightOf="@+id/txtmomentoum"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="110dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:text="   Desafios"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtciclostres" />
+
+    <TextView
+        android:id="@+id/txtdesafioum"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/txtdesafiodois"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdesafioum" />
+
+    <TextView
+        android:id="@+id/txtdesafiopincipal"
+        android:layout_width="20dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdesafiodois" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="  Primeiro"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtdesafioum"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="0dp"
+        android:text="  Segundo"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtdesafiodois"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="89dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="-8dp"
+        android:text="  Principal"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/txtdesafiopincipal"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        android:text="Nº Destino"
+        android:textSize="12sp"
+        android:layout_marginTop="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtsubconsciente"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.333" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="52dp"
+        android:layout_height="16dp"
+        android:text="Missão"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView7"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnome" />
+
+    <TextView
+        android:id="@+id/txtdestino"
+        android:layout_width="16dp"
+        android:layout_height="14dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/txtdecisivosum"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.413" />
+
+    <TextView
+        android:id="@+id/txtmissao"
+        android:layout_width="16dp"
+        android:layout_height="14dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="-1dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28"
+        app:layout_constraintLeft_toRightOf="@+id/txtexpressao"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="103dp"
+        android:layout_height="18dp"
+        android:text="Dividas Carmicas"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView19"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtmomentoquatro" />
+
+    <TextView
+        android:id="@+id/txtdividascar"
+        android:layout_width="83dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="-6dp"
+        android:text="00"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView31"
+        app:layout_constraintLeft_toRightOf="@+id/textView24"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="198dp"
+        android:layout_height="20dp"
+        android:text="        Dias do Mês Favoráveis"
+        android:textSize="12sp"
+        android:layout_marginTop="-3dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtdividascar"
+        app:layout_constraintLeft_toRightOf="@+id/textView26"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.047" />
+
+    <TextView
+        android:id="@+id/txtdiasmesfavo"
+        android:layout_width="204dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="-5dp"
+        android:text="1,5"
+        android:textSize="10sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.942" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relações Intervalores"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView31"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="47dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtdestino"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Vibra Com"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="-6dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumeroamor" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="0dp"
+        android:text="Atrai"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:text="É oposto a"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="1dp"
+        android:text="É passivo"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+    <TextView
+        android:id="@+id/txtvibraum"
+        android:layout_width="15dp"
+        android:layout_height="13dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView37"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumeroamor" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="221dp"
+        android:layout_height="21dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="32dp"
+        android:text="Cores Favoráveis"
+        android:textSize="12sp"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtdiasmesfavo" />
+
+    <TextView
+        android:id="@+id/txtcores"
+        android:layout_width="327dp"
+        android:layout_height="29dp"
+        android:text="Azul,"
+        android:textSize="10sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView45"
+        android:layout_marginLeft="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="149dp"
+        android:layout_height="16dp"
+        android:text="Nº Amor /Relacionamento"
+        android:textSize="12sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumeroharmonico2" />
+
+    <TextView
+        android:id="@+id/txtnumeroamor"
+        android:layout_width="14dp"
+        android:layout_height="15dp"
+        android:text="0"
+        android:textSize="10sp"
+        android:layout_marginTop="-5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView35"
+        android:layout_marginRight="8dp"
+        app:layout_constraintHorizontal_bias="0.216" />
+
+    <TextView
+        android:id="@+id/txtteste"
+        android:layout_width="78dp"
+        android:layout_height="16dp"
+        android:text="Harmonizam"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/textView11"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/textView17"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        android:layout_marginTop="0dp"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nº"
+        android:textSize="12sp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtcores" />
+
+    <TextView
+        android:id="@+id/txtnumeroharmonico1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="10sp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnumeroharmonico2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1,2,3,4,5,6,7,8,9"
+        android:textSize="10sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtteste"
+        app:layout_constraintLeft_toRightOf="@+id/txtnumeroharmonico1"
+        android:layout_marginLeft="14dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Neutro"
+        android:textSize="12sp"
+        app:layout_constraintRight_toLeftOf="@+id/textView20"
+        android:layout_marginRight="72dp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtcores" />
+
+    <TextView
+        android:id="@+id/txtnumeroharmonico3"
+        android:layout_width="100dp"
+        android:layout_height="14dp"
+        android:text="1,2,3,4"
+        android:textSize="10sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintLeft_toRightOf="@+id/txtnumeroharmonico2"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/txtnumeroharmonico4"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incompatível "
+        android:textSize="12sp"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtcores"
+        android:layout_marginRight="55dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnumeroharmonico4"
+        android:layout_width="105dp"
+        android:layout_height="15dp"
+        android:text="TextView"
+        android:textSize="10sp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/txtrelacaointe"
+        android:layout_width="83dp"
+        android:layout_height="14dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="-1dp"
+        android:text="0"
+        android:textSize="10sp"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintLeft_toRightOf="@+id/txtdividascar"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ano Pessoal"
+        android:textSize="12sp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtnumeroharmonico4"
+        app:layout_constraintLeft_toRightOf="@+id/textView4"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.866" />
+
+    <TextView
+        android:id="@+id/txtanopessoal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textSize="10sp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/txtnumeroamor"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="0.837" />
+
+</android.support.constraint.ConstraintLayout>
